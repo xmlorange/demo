@@ -109,3 +109,4 @@ venv.bak/
 /app/cs_to_new/doc.xlsx
 /app/config.py
 /Contract_status.xlsx
+/*.xlsx
