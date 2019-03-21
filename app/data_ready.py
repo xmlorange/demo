@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-    author: Q.Y.
-"""
+
 import datetime
 from io import BytesIO
 

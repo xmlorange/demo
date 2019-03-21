@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-    author: Q.Y.
-"""
 
 import smtplib
 import mimetypes

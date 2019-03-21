@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-"""
-    author: Q.Y.
-"""
+
+from urllib.parse import quote
 
 
 class Config:
     SECRET_KEY = b'\xd3%\x0c6\xf9OMP\xd8f\xec\x97\x00\xae-\xf9\xb1\x1d\x03\xbdt\xaf\x07\x07'
     SQLALCHEMY_BINDS = {
-        "cm": "mysql+pymysql://root:Hutong_0328@120.26.197.19:3306/common_prod?charset=utf8",
-        "bs": "mysql+pymysql://root:Hutong_0328@120.26.197.19:3306/business_prod?charset=utf8",
-        "qb": "mysql+pymysql://dubbo:dubbo%40admin@121.41.50.233:31306/cnhutong_content?charset=utf8"
+        "cm": "mysql+pymysql://root:{0}@118.31.115.234:3306/staff_uat_2?charset=utf8".format(quote('Bytech123')),
+        "bs": "mysql+pymysql://root:{0}@118.31.115.234:3306/business_uat_2?charset=utf8".format(quote('Bytech123')),
+        "qb": "mysql+pymysql://dubbo:dubbo%40admin@121.41.50.233:31306/cnhutong_content?charset=utf8",
+        "cs": "mysql+pymysql://hutong:Hutong_1226@cshutong.mysql.rds.aliyuncs.com:3306/hutong_20161010?charset=utf8"
     }
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 

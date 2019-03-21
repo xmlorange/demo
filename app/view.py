@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-    author: Q.Y.
-"""
+
 import zipfile as zf
 from datetime import datetime
 from io import BytesIO

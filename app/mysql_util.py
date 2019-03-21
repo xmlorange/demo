@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-    author: Q.Y.
-"""
+
 from functools import partial
 
 from app import db, app, config
